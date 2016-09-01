@@ -22,11 +22,17 @@
                                 <rect key="frame" x="52" y="440" width="76" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="steve" image="SteveJobs"/>
+                                <connections>
+                                    <action selector="teamSteve:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oii-8d-gZU"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="pmx-kv-Kjc">
                                 <rect key="frame" x="179" y="440" width="76" height="108"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="bill" image="BillGates"/>
+                                <connections>
+                                    <action selector="teamPCMasterRace:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sX4-3W-hPm"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steve" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Bjg-Hq-bR1">
                                 <rect key="frame" x="47" y="399" width="86" height="33"/>
@@ -49,7 +55,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="He took a calligraphy course, which he says was instrumental in the future company products' attention to typography and font." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mVc-Ct-l0W">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello! Click on a face to start." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="mVc-Ct-l0W">
                                 <rect key="frame" x="20" y="60" width="280" height="321"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
@@ -59,6 +65,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.73637519537155316" green="0.86673383875809507" blue="0.94509803920000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
+                    <connections>
+                        <outlet property="scoreCounter" destination="EDs-I2-kTY" id="6mG-7O-Klj"/>
+                        <outlet property="textBox" destination="mVc-Ct-l0W" id="hJN-5K-ttm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
